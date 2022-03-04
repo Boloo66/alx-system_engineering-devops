@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+x /alx-system_engineering-devops/0x01-shell_permissions/ -R
+sudo chmod a+x -R /alx-system_engineering-devops/0x01-shell_permissions/
