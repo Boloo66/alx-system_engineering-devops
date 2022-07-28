@@ -1,4 +1,4 @@
 #! /usr/bin/env bash
 # This script creates a netcat command in linux
 
-sudo telnet -l localhost 98
+nc -l localhost 98
