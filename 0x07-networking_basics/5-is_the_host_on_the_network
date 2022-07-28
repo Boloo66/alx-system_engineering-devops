@@ -3,9 +3,9 @@
 
 args=("$@")
 
-if [ -z ${args[0]} ]
+if [ -z "${args[0]}" ]
 then
     echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 else
-    sudo ping -c 5 ${args[0]}
+    sudo ping -c 5 "${args[0]}"
 fi
