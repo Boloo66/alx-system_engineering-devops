@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+# This script creates a netcat command in linux
+
+nc -l 127.0.0.1 98

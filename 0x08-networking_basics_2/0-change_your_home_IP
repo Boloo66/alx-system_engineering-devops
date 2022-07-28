@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+# Editing the hosts file of a client network using netcat in linux
+
+filename=/etc/hosts
+
+if [ -f "$filename" ]
+then
+    echo "localhost 127.0.0.2" | tee -a "$filename"
+    echo "facebook.com  8.8.8.8" | tee -a "$filename"  
+else
+    touch "$filename"
+fi
