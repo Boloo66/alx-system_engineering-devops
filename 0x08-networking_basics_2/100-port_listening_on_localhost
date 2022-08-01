@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
 # This script creates a netcat command in linux
 
 nc -l localhost 98
