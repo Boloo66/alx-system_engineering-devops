@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
 # Editing the hosts file of a client network using netcat in linux
 
 filename=/etc/hosts
