@@ -1,4 +1,4 @@
-Web infrastructure design
+# Web infrastructure design
 
 ## Concepts
 - [DNS]()
@@ -27,4 +27,4 @@ Web infrastructure design
 - [What is a firewall]()
 
 ## contributors
-
+There were 3 contributors to this project
