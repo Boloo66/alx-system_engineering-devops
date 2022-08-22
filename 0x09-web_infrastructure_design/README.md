@@ -17,7 +17,7 @@
 - [DNS concept page]()
 - [Load balancer concept page]()
 - [Monitoring concept page]()
-- [What is a database]()
+- [What is a database](https://www.techtarget.com/searchdatamanagement/definition/database)
 - [What’s the difference between a web server and an app server?]()
 - [DNS record types]()
 - [Single point of failure]()
