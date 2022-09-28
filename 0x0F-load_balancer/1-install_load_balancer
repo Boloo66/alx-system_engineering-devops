@@ -18,4 +18,4 @@ echo "
    server 29434-web-02 3.238.85.27:80 check
 " >> /etc/haproxy/haproxy.cfg
 
-service haproxy start
+service haproxy restart
