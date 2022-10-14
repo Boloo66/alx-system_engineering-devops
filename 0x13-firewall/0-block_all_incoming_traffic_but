@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# configure a firewall that allows
+#+ http, https and ssh connection on tcp.
+
+sudo apt-get install ufw
+sed -i "s/IPV6=.*/IPV6=yes" /etc/default/ufw
+sudo ufw default allow incoming
+sudo ufw default deny outgoing
+sudo ufw allow 22/tcp
+sudo ufw allow 88/tcp
+sudo ufw allow 443/tcp
+sudo ufw enable
