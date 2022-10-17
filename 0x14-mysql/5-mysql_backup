@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # This script to compress my sqldump file
 #+ and save it in another physical location.
 
